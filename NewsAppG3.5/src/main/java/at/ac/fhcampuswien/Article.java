@@ -16,4 +16,10 @@ public class Article {
     public String getTitle(){
         return title;
     }
+
+
+    @Override
+    public String toString(){
+        return "Author: " + this.author + ", Title: " + this.title;}
+
 }
