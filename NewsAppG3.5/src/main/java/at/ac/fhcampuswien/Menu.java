@@ -4,12 +4,18 @@ import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Menu {
-    Scanner scan = new Scanner(System.in);
+    //public class Menu extends AppController
 
+    Scanner scan = new Scanner(System.in);
     String invalidInput = "INVALID_USER_INPUT_MESSAGE";
     String exitMessage = "EXIT_MESSAGE";
+    String userInput;
 
-    //AppController.
+    public boolean inputValidation() {
+        //userInput = userInput.nextString();
+        return true;
+    }
+
 
     //die Menu Klasse ist für die Ausgabe des Konsolenmenüs, sowie die Usereingaben zuständig.
     // Wurden die Usereingaben validiert, werden diese an die entsprechenden AppController
