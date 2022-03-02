@@ -16,5 +16,5 @@ public class AppController {
     //- getAllNewsBitcoin(): die Funktion ruft die filterList() Funktion mit dem query „bitcoin“ auf
     //
     //Der AppController wird in zukünftigen Exercises das Herzstück der Applikation bilden.
-    // In dieser Exercise geht es darum, einige Unittests für die Funktionen zu schreiben.
+    // .In dieser Exercise geht es darum, einige Unittests für die Funktionen zu schreiben.
 }
